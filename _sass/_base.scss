@@ -124,17 +124,6 @@ figcaption {
   text-align: center;
 }
 
-.post-date {
-  color: $muted-text-color;
-  display: block;
-  font-size: .825em;
-  white-space: nowrap;
-  text-transform: uppercase;
-  .post-link & {
-    padding: .5em 0;
-  }
-}
-
 .site-credits {
   margin: 0 auto 2em;
   padding: 0 2em;
