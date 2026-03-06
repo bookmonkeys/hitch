@@ -1,7 +1,7 @@
-title: Hitchens
+title: Monkey Tales
 email: hello@patdryburgh.com
 description: >- # this means to ignore newlines until "baseurl:"
-  An inarguably well-designed Jekyll theme.
+  Stories for monkeys.
 baseurl: "/hitch"
 url: "https://bookmonkeys.github.io"
 icon: /assets/images/icon-512.png
