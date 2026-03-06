@@ -18,7 +18,6 @@ Not comfortable with Jekyll? This theme has also been ported to other platforms:
 
 ## Quick Start
 
-This theme is, itself, a Jekyll blog, meaning the code base you see has everything you need to run a Jekyll powered blog!
 
 To get started quickly, follow the instructions below:
 
