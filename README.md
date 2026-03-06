@@ -5,29 +5,6 @@ title: "Hitchens"
 
 An inarguably well-designed [Jekyll](http://jekyllrb.com) theme by [Pat Dryburgh](https://patdryburgh.com).
 
-![Hitchens Preview](https://raw.githubusercontent.com/patdryburgh/hitchens/master/screenshot.png)
-
-Undoubtably one of the great minds of our time, [Christopher Hitchens](https://en.wikipedia.org/wiki/Christopher_Hitchens) challenged his readers to think deeply on topics of politics, religion, war, and science. This Jekyll theme's design is inspired by the trade paperback version his book, [Arguably](https://en.wikipedia.org/wiki/Arguably), and is dedicated to his memory.
-
-Not comfortable with Jekyll? This theme has also been ported to other platforms:
-
-- [Hitchens for Hugo](https://github.com/pimoore/microdotblog-hitchens) by Pete Moore (also available to be used on [Micro.blog](https://micro.blog))
-- [Hitchens for Eleventy](https://github.com/shellen/hitchens-eleventy) by Jason Shellen
-
-**The following instructions pertain to Hitchens for Jekyll.**
-
-## Quick Start
-
-
-To get started quickly, follow the instructions below:
-
-1. Click the `Fork` button at the top of [the repository](https://github.com/patdryburgh/hitchens/);
-2. Go to your forked repo's `Settings` screen;
-3. Scroll down to the `GitHub Pages` section;
-4. Under `Source`, select the `Master` branch;
-5. Hit `Save`.
-6. Follow [Jekyll's instructions to configure your new Jekyll site](https://jekyllrb.com/docs/configuration/).
-
 ## Manual Installation
 
 If you've already created your Jekyll site or are comfortable with the command line, you can follow [Jekyll's Quickstart instructions](https://jekyllrb.com/docs/) add this line to your Jekyll site's `Gemfile`:
@@ -157,14 +134,6 @@ feed_icon: /assets/images/icon-512.png
 
 Then, replace the `/assets/images/icon-512.png` file with your own image.
 
-### Credits
-
-The theme credits that appear at the bottom of each page can be turned off by including the following line in your site's `_config.yml` file:
-
-```
-hide_credits: true
-```
-
 ### Search
 
 The theme uses a [custom DuckDuckGo Search Form](https://ddg.patdryburgh.com) that can be turned off by including the following line in your site's `_config.yml` file: 
@@ -181,22 +150,8 @@ The theme includes a version of [EB Garamond](https://fonts.google.com/specimen/
 
 A [copy of the license](https://github.com/patdryburgh/hitchens/blob/master/assets/fonts/OFL.txt) has been included in the `assets` folder and must be included with any distributions of this theme that include the EB Garamond font files.
 
-## Contributing & Requesting Features
-
-Bug reports, feature requests, and pull requests are welcome on GitHub at [https://github.com/patdryburgh/hitchens](https://github.com/patdryburgh/hitchens).
-
-This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [Contributor Covenant](http://contributor-covenant.org) code of conduct.
-
 ## Development
 
 To set up your environment to develop this theme, run `bundle install`.
 
 The theme is setup just like a normal Jekyll site. To test the theme, run `bundle exec jekyll serve` and open your browser at `http://localhost:4000`. This starts a Jekyll server using the theme. Add pages, documents, data, etc. like normal to test the theme's contents. As you make modifications to the theme and to your content, your site will regenerate and you should see the changes in the browser after a refresh, just like normal.
-
-## License
-
-The code for this theme is available as open source under the terms of the [MIT License](https://opensource.org/licenses/MIT).
-
-The font, EB Garamond, is Copyright 2017 The EB Garamond Project Authors and licensed under the [SIL Open Font License Version 1.1](https://github.com/patdryburgh/hitchens/blob/master/assets/fonts/OFL.txt).
-
-Graphics are released to the public domain.
